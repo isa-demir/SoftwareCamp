@@ -29,7 +29,14 @@ namespace DegerVeReferansTipler
             name1 = name2;
             name2 = "İsa ve Selver";
             Console.WriteLine(name1);
+            Console.WriteLine("----------------------");
+            DegerDegis(sayilar1);
+            Console.WriteLine(sayilar1[0]);
 
+        }
+        static public void DegerDegis(int[] array)
+        {
+            array[0] = 753;
         }
     }
 }
